@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: rgb(243, 243, 255);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .head {
+            display: block;
+            width: 96%;
+            margin: auto;
+            background-color: rgb(186, 176, 245);
+            border-radius: 5px;
+            margin-bottom: 2.5%;
+            text-align: center;
+            /*버튼들 가운데정렬.. */
+
+        }
+
+        #welcome {
+            background: slateblue;
+            display: block;
+            width: 100%;
+
+            padding: 10px 0px;
+            margin: auto;
+            text-align: center;
+            color: white;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            ;
+
+
+        }
+
+
+
+
+        #headbutton {
+            display: inline;
+            color: white;
+            padding: 10px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+
+            transition-duration: 0.2s;
+            background-color: white;
+            color: darkorchid;
+            border: 2px solid lavender;
+            border-radius: 10px;
+
+        }
+
+        #headbutton:hover {
+            background-color: rgb(168, 130, 238);
+            color: white;
+        
+        }
+
+
+        #homecard {
+            background: lavender;
+            display: block;
+            width: 40%;
+            float: left;
+            margin-left: 2%;
+            margin-right: 2%;
+            border: 2px solid slateblue;
+            border-radius: 5px;
+            transition-duration: 0.2s;
+        }
+
+        #firstcardh {
+            display: block;
+            font-size: 30px;
+            margin-top: 0;
+            margin-bottom: 0;
+            background: slateblue;
+            color: white;
+            height: 35px;
+            text-align: center;
+        }
+
+        #videocard {
+            display: block;
+            width: 50%;
+            margin-right: 2%;
+            float: left;
+            border: 2px solid slateblue;
+            border-radius: 5px;
+            transition-duration: 0.2s;
+        }
+
+
+        #secondcardh {
+            display: block;
+            font-size: 30px;
+            margin-top: 0;
+            margin-bottom: 0;
+            background: slateblue;
+            color: white;
+            height: 35px;
+            text-align: center;
+        }
+
+        #video {
+            margin-top: 20px;
+        }
+    </style>
+    <title>My Home</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div >
+        <div class="head" style="border-bottom: 2px solid rgb(84, 72, 166);">
+            <h1 id="welcome"> &#10024; Welcome! Home  &#10024;</h1>
+            <p style="display: block; width:100%; margin:0px;">
+                <a id="headbutton" href="index.html">Home</a>
+                <a id="headbutton" href="introducing.html">About me</a>
+                <a id="headbutton" href="#">Blog</a>
+            </p>
+
+        </div>
+        <div id="homecard">
+            <h2 id="firstcardh">Todo list</h2>
+            <img src="damgom.jpeg" style="display: block; width: 200px; margin: auto; margin-top: 10px;">
+
+            <ul><input type="checkbox"><strong>WEB 유튜브 강의 보기 </strong></ul>
+            <ul><input type="checkbox"><strong>자기소개 페이지 완성하기</strong></ul>
+            <ul><input type="checkbox"><strong>계절학기 과제 마무리</strong></ul>
+            <ul><input type="checkbox"><strong>계절학기 기말 시험 공부 </strong></ul>
+            <ul><input type="checkbox"><strong>운동</str></ul>
+            <h3 style=" display:block; text-align:center;">화이팅!!</h3>
+           <img src="damgom_gif.gif" alt="Damgom dancing" style=" display: block; text-align: center; width:100px; height:100px; margin: auto; margin-bottom: 10px;">   
+           
+        </div>
+        <div id="videocard" style="background: lavender; text-align: center; margin: auto;">
+
+            <h2 id="secondcardh">HTML Study</h2>
+            <iframe id="video" width="560" height="315"
+                src="https://www.youtube.com/embed/tZooW6PritE?si=s0QWUKmaau0yMGMF" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <ul><strong><생활코딩 유튜브 동영상 강의></strong></ul>
+            <ul><strong>영상 총 개수: </strong>28개</ul>
+            <strong style="margin-left: 10px;" >HTML이란?</strong>
+            <p style="margin-left: 10px; margin-right:10px;">
+                HTML은 하이퍼 텍스트 마크업 언어(Hyper Text Markup Language)을 말하며, HTML은 웹 페이지 표시를 위해 개발된 지배적인 마크업 언어다.
+                또한, HTML은 제목, 단락, 목록 등과 같은 본문을 위한 구조적 의미를 나타내는 것뿐만 아니라 링크, 인용과 그 밖의 항목으로 구조적 문서를 만들 수 있는 방법을 제공하며, 이미지와 객체를 내장하여 대화형 양식을 생성하는 데 사용될 수 있다. </p> <p style="margin-left: 10px; margin-right:10px;">HTML은 웹 페이지 콘텐츠 안의 꺾쇠 괄호에 둘러싸인 "태그"로 되어있는 HTML 요소 형태로
+                작성한다. HTML은 웹 브라우저와 같은 HTML 처리 장치의 행동에 영향을 주는 자바스크립트, 본문과 그 밖의 항목의 외관과 배치를 정의하는 CSS 같은 스크립트를 포함하거나 불러올 수
+                있다.
+            </p>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

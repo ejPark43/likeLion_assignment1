@@ -5,7 +5,7 @@
       body {
         background-color: rgb(243, 243, 255);
         font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-          "Lucida Sans", Arial, sans-serif;
+          "Lucida Sans", Arial, sans-sejrif;
       }
 
       .head {
@@ -76,14 +76,22 @@
         text-align: center;
       }
     </style>
-    <title>My Home</title>
+    <title>My Blog</title>
     <meta charset="utf-8" />
   </head>
 
   <body>
-    <div>
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        width: 100vw;
+        align-items: center; /* 가로로 가운데 정렬*/
+      "
+    >
       <div class="head" style="border-bottom: 2px solid rgb(84, 72, 166)">
-        <h1 id="welcome">&#10024; Welcome! Home &#10024;</h1>
+        <h1 id="welcome">&#10024; Welcome! Assignments &#10024;</h1>
         <p style="display: block; width: 100%; margin: 0px">
           <a id="headbutton" href="index.html">Home</a>
           <a id="headbutton" href="introducing.html">About me</a>
@@ -119,13 +127,14 @@
               font-size: 20px;
               display: block;
 
-              width: 200px;
+              width: 100%;
               text-align: center;
               padding: auto;
               justify-content: center;
+              border-bottom: rgb(84, 72, 166) 2px solid;
             "
-            >>CSS 과제 보러가기<</a
-          >
+            >1. 첫번째 CSS 과제 보러가기!
+          </a>
         </p>
       </div>
       <div
